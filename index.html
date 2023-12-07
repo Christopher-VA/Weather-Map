@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Map</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap">
+  <link rel="stylesheet" href="./Assets/CSS/style.css"/>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Map</h1>
+    </header>
+    <div class="weather-container">
+      <div class="search-bar">
+        <h2>Search for a City:</h2>
+        <form id="searcher" class="search-form">
+          <input id="search-input" class="form-input" type="text" placeholder="Search!"  name="searched" autocomplete="on">
+          <button class="btn" type="submit">Search</button>
+        </form>
+        <div id="past-search">
+          
+        </div>
+      </div>
+    <div class="city-searched">
+      <div class="location-place">
+        <h2 id="location-name"></h2>
+          <p id="temp"></p>
+          <p id="wind"></p>
+          <p id="humidity"></p>
+      </div>
+      <div class="cards">
+        <h2>5-Day Forecast</h2>
+        <div id='day1' class="card-container">
+          <h2></h2>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+        <div id='day2' class="card-container">
+          <h2></h2>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+        <div id='day3' class="card-container">
+          <h2></h2>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+        <div id='day4' class="card-container">
+          <h2></h2>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+        <div id='day5' class="card-container">
+          <h2></h2>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="./Assets/Js/script.js"></script>
+</body>
